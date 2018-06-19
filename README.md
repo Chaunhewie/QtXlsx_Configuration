@@ -20,11 +20,17 @@
 5.	搜索并打开vcvarsall.bat路径，我的是 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Auxiliary\Build 路径下
 
 6.	在Qt 5.9.2 64-bit for Desktop (MSVC 2017) 命令框中依次输入如下命令并执行：
+
 	cd /d C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Auxiliary\Build
+
 	vcvarsall.bat amd64
+	
 	cd /d C:\QtXlsxWriter-master\src
+	
 	qmake src.pro
+	
 	nmake
+	
 	nmake install
 	
 7.	完成配置
