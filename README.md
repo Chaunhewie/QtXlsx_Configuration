@@ -1,9 +1,10 @@
-# QtXlsx_Configuration
+﻿# QtXlsx_Configuration
 本页记载自己安装QtXlsx的过程
 
 配置：x64 windows10 VS2017 Qt5.9.2
 
 1.	首先根据网上的资料查询并下载perl：
+	网址https://www.activestate.com/activeperl/downloads
 	选择	ACTIVEPERL
 	    5.24.3.2404
 	    Windows Installer (EXE)
