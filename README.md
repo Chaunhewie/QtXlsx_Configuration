@@ -4,10 +4,13 @@
 配置：x64 windows10 VS2017 Qt5.9.2
 
 1.	首先根据网上的资料查询并下载perl：
+
 	网址https://www.activestate.com/activeperl/downloads
+
 	选择	ACTIVEPERL
 	    5.24.3.2404
 	    Windows Installer (EXE)
+
 	默认安装，完成后cmd输入perl -v，得到This is perl 5, version 24, subversion 3 (v5.24.3)...
 
 2.	下载QtXlsx源码包：
@@ -37,5 +40,6 @@
 
 遇到的问题：
 	开始并未选择在C盘，而是放在自己的Qt路径下：E:\Scripts()Qt\QtXlsxWriter-master
+	
 	结果报如下错误：
 		此处不应存在Qt\QtXlsxWriter-master\src\xlsx\xlsx.pro，原因是自己的路径中存在括号 )，使得命令分析出错
